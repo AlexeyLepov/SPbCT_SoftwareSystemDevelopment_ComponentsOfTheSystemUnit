@@ -1,0 +1,122 @@
+ @import url(http://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css);
+
+body {
+   font: 12px/20px 'Lucida Grande', Verdana, sans-serif;
+   color: #404040;
+  background: #042630;
+    background-color: #042630;
+  background: linear-gradient(90deg, rgb(214, 152, 64) 0%, rgb(0, 106, 138) 40%, rgb(0, 106, 138) 60%,  rgb(214, 152, 64) 100%);
+ }
+ 
+ .plans {
+   margin: 20px auto;
+   width: 900px;
+   zoom: 1;
+ }
+ 
+ .plans:before, .plans:after {
+   content: '';
+   display: table;
+ }
+ 
+ .plans:after {
+   clear: both;
+ }
+ 
+ .plan {
+   float: left;
+   width: 284px;
+   margin: 8px 8px;
+   padding: 20px;
+   text-align: center;
+   background: #fafafa;
+   background-clip: padding-box;
+   border: solid #453b5d;
+   border-width: 2px 0 2px 2px;
+   border-radius: 20px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .plan:first-child {
+   border-radius: 30px;
+ }
+ 
+ .plan:last-child {
+   border-width: 2px;
+   border-radius: 20px;
+ }
+ 
+ .plan-title {
+   min-height: 50px;
+   position: relative;
+   margin: -20px -10px 20px;
+   padding: 10px;
+   vertical-align: center;
+   line-height: 1;
+   font-size: 14px;
+   font-weight: bold;
+   color: #595f6b;
+   border-bottom: 1px dashed #d2d2d2;
+ }
+ 
+ .plan-title:before {
+   content: '';
+   position: absolute;
+   bottom: -1px;
+   left: 0;
+   right: 0;
+   height: 1px;
+   background-size: 3px 1px;
+   background-image: -webkit-linear-gradient(left, white, white 33%, #d2d2d2 34%, #d2d2d2);
+   background-image: -moz-linear-gradient(left, white, white 33%, #d2d2d2 34%, #d2d2d2);
+   background-image: -o-linear-gradient(left, white, white 33%, #d2d2d2 34%, #d2d2d2);
+   background-image: linear-gradient(to right, white, white 33%, #d2d2d2 34%, #d2d2d2);
+ }
+
+ .plan-features {
+   margin-bottom: 10px;
+   font-size: 12px;
+   color: #000;
+   text-align: left;
+ }
+ 
+ .plan-button {
+   background: #DB9A64;
+  color: #fff;
+  display: inline-block;
+  padding: 19px 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: 0;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  letter-spacing: 2px;
+ }
+ 
+ .plan-button:hover {
+  background: #0c414b;
+  color: #fff !important;
+  text-decoration: none;
+  transform: scale(0.9);
+ }
+ 
+  .plan-button:active {
+  background: #0c414b;
+  color: #fff !important;
+  text-decoration: none;
+  transform: scale(0.8);
+ }

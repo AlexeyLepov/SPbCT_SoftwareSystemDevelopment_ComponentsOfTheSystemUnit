@@ -1,0 +1,10 @@
+.hoverIMG figure {
+	position: relative;
+}
+.hoverIMG figure::before {
+opacity: 0.3;
+}
+.hoverIMG figure:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s; opacity: 0.3;
+}
