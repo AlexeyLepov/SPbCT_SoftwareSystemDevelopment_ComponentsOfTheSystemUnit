@@ -1,3 +1,5 @@
+https://user-images.githubusercontent.com/77492646/180122513-54292451-72ba-4439-8904-39e7f17a1ccf.mov
+
 # ВЫПУСКНАЯ    КВАЛИФИКАЦИОННАЯ     РАБОТА
 ## Тема: Разработка программной системы «Комплектующие системного блока» 
 #### Специальность: 09.02.03 «Программирование в компьютерных системах»
@@ -18,11 +20,3 @@
 
 ## ER-Диаграмма в нотации IDEF1X:
 ![image](https://user-images.githubusercontent.com/77492646/180113571-15312deb-340f-4ca0-96e2-78be1519df12.png)
-
-
-https://user-images.githubusercontent.com/77492646/180118363-4dad2a68-e260-4d6c-a2fd-c18fb9820099.mov
-
-https://user-images.githubusercontent.com/77492646/180118418-5e76b05c-b0ff-4516-8829-574358894ea5.mov
-
-https://user-images.githubusercontent.com/77492646/180118424-6d6c24f0-fdc3-4134-bfef-fefb04d736f7.mov
-
